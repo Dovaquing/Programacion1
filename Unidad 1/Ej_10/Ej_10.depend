@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1660844525 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+
+1660844369 c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\mimath.h
+
+1660844494 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\ej_10\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../miMath.h"
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1660681185 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+	"funciones.h"
+
+1660680206 c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\mimath.h
+
+1660681001 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\ej_4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../miMath.h"
+	"../funciones.h"
+
+1660676422 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\ej_4\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"../funciones.h"
+
+1660676422 c:\users\jmerc\onedrive\escritorio\facultad\programacion\repaso\funciones.h
+
