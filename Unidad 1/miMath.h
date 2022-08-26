@@ -1,7 +1,10 @@
 #ifndef MIMATH_H_INCLUDED
 #define MIMATH_H_INCLUDED
 
+
+
 float tolerancia(float n1,float n2);
+int intervaloAbierto(float vMin,float valor,float vMax);
 float valorAbs(float x);
 float potencia(float x,int n);
 int validarNumeroNatural();

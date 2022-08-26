@@ -157,7 +157,7 @@ int esFibonacci(int n){
     return 0;
 }
 
-// COMENTAR CON AGUSTIN O JULIAN
+// COMENTAR CON LES PROFES
 
 float calcularSeno(float n,float tol){
     int i=3,sumar=0;
@@ -194,7 +194,7 @@ double senX(double x, double tol) {
     return seno;
 }
 
-//  fin com
+
 
 int perfeccionNumero(int n){
     int suma;
@@ -260,6 +260,11 @@ int sumarParesNaturalesMenoresQueN(int n){
 }
 
 
+int intervaloAbierto(float vMin,float valor,float vMax){
+    return (vMin<valor && valor<vMax) ? (1):(0);
+}
+
+
 
 int esPrimo(int n){
     int i=2,esPrimo=1;
@@ -267,8 +272,6 @@ int esPrimo(int n){
         (n%i==0) ? (esPrimo=0):(i++);
     return esPrimo;
 }
-
-
 
 
 

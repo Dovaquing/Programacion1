@@ -31,10 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../librerias.c">
+		<Unit filename="../miMath.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../librerias.h" />
+		<Unit filename="../miMath.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

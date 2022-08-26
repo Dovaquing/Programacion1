@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1661546316 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_23\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../../Bibliotecas/funcionesVectores.h"
+	"../../Bibliotecas/miMath.h"
+
+1661543230 c:\users\jmerc\onedrive\escritorio\facultad\programacion\bibliotecas\funcionesvectores.h
+
+1661209410 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\bibliotecas\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+
+1661209235 c:\users\jmerc\onedrive\escritorio\facultad\programacion\bibliotecas\mimath.h
+
+1661546125 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\bibliotecas\funcionesvectores.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesVectores.h"
+	"./miMath.h"
+

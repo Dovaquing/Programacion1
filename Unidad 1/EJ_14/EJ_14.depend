@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1661209410 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+
+1661209235 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.h
+
+1661376790 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_14\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../miMath.h"
+	"../funcionesFecha.h"
+
+1661376681 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesfecha.h
+
+1661376826 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesfecha.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesFecha.h"
+	"./miMath.h"
+

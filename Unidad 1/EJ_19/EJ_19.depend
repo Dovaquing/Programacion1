@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1661453206 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_19\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../funcionesFecha.h"
+
+1661450954 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesfecha.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesFecha.h"
+
+1661453310 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesfecha.h
+
