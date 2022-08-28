@@ -75,3 +75,24 @@ void insertarEnVecOrdenado(int *v,int tam,int val,int cantElem)
         *v=val;
     }
 }
+
+void eliminarValoresEnVec(int *v,int val,int *cantElem){
+    int i,*eliminar;
+    i=*cantElem;
+    eliminar=v;
+    while(i>0){
+        do{
+            i--;
+            if(*v==val){
+                v++;
+                *cantElem-=1;
+            }else
+                v++;
+        }while(*v==val);        /// SIEMPRE sumo 1 a v y chequeo que nunca quede apuntando al valor que quiero eliminar
+        if(*eliminar!=val)      /// si el valor del puntero a eliminar es != a el valor lo incremento
+            eliminar++;
+        if(*eliminar==val || eliminar<v)    ///una vez incrementado, si es igual a el valor o v ya encontro algun valor a eliminar debo pisarlo.
+            *eliminar=*v;
+    }
+}
+
