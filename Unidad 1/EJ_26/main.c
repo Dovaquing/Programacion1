@@ -3,7 +3,7 @@
 #include "../funcionesVectores.h"
 #include "../miMath.h"
 
-#define TAM 8
+#define TAM 6
 
 ///Desarrollar una función que elimine todas las apariciones de un determinado elemento de un arreglo de enteros.
 ///Resolver utilizando aritmética de punteros. Desarrollar también el main que invoca a dicha función.
@@ -11,8 +11,8 @@
 
 int main()
 {
-    int v[TAM]={69,69,7,7,7,69,32,63},val,cantElem,seguir=1;
-    cantElem=sizeof(v)/sizeof(int);
+    int v[TAM]={7,69,9,12,18,7},val,cantElem,seguir=1;
+    cantElem=sizeof(v)/sizeof(*v);
     mostrarVector(v,cantElem);
     do{
         printf("seleccione el valor que desea eliminar: ");

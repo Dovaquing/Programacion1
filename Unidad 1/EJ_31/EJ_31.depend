@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1662424108 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_31\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Bibliotecas/funcionesMatrices.h"
+
+1662424109 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.h
+
+1662424129 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesMatrices.h"
+

@@ -12,7 +12,7 @@ size_t miStrlen(const char *s){
 }
 
 
-char *strncat(char*s1, const char *s2, size_t n){
+/*char *strncat(char*s1, const char *s2, size_t n){
     char *inicioS1=s1;
         s1+=miStrlen(s1);
     while(*s2&&i<n--){
@@ -24,3 +24,4 @@ char *strncat(char*s1, const char *s2, size_t n){
 
 }
 
+*/

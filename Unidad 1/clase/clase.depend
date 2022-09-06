@@ -1,13 +1,12 @@
 # depslib dependency file v1.0
-1661525192 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.c
+1661824472 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.c
 	<stdio.h>
 	<stdlib.h>
 	"./miString.h"
 
 1661524613 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.h
 
-1661523421 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\clase\main.c
+1661884257 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\clase\main.c
 	<stdio.h>
 	<stdlib.h>
-	"../miString.h"
 

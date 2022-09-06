@@ -31,14 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="../../Bibliotecas/funcionesVectores.c">
+		<Unit filename="../funcionesVectores.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../Bibliotecas/funcionesVectores.h" />
-		<Unit filename="../../Bibliotecas/miMath.c">
+		<Unit filename="../funcionesVectores.h" />
+		<Unit filename="../miMath.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="../../Bibliotecas/miMath.h" />
+		<Unit filename="../miMath.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

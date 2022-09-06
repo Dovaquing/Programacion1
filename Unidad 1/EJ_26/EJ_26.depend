@@ -6,15 +6,21 @@
 
 1661209235 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.h
 
-1661657178 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.c
+1661985790 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.c
 	<stdio.h>
 	<stdlib.h>
 	"./funcionesVectores.h"
 	"./miMath.h"
 
-1661657628 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.h
+1661986113 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.h
 
 1661657472 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_26 (version loom.wecode.io)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../funcionesVectores.h"
+	"../miMath.h"
+
+1661984063 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_26\main.c
 	<stdio.h>
 	<stdlib.h>
 	"../funcionesVectores.h"

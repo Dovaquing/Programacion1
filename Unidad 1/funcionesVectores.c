@@ -76,16 +76,46 @@ void insertarEnVecOrdenado(int *v,int tam,int val,int cantElem)
     }
 }
 
+void eliminarPorPosicion(int *v,int *cantElem,int pos){
+    int i;
+    for(i=1;i<pos;i++)
+        v++;
+    for(i=pos;i<*cantElem;i++){
+        *v=*(v+1);
+        v++;
+    }
+    (*cantElem)--;
+}
+
+void eliminarValor(int *v,int val,int *cantElem){
+    int i,finalVec;
+    finalVec=*cantElem;
+    while(i<*cantElem && *v!=val){
+        v++;
+        i++;
+    }
+    if(*v==val)
+        (*cantElem)--;
+    while(i<finalVec){
+        *v=*(v+1);
+        v++;
+        i++;
+    }
+}
+
+
+
+
 void eliminarValoresEnVec(int *v,int val,int *cantElem){
     int i,*eliminar;
-    i=*cantElem;
+    i=*cantElem-1;
     eliminar=v;
     while(i>0){
         do{
             i--;
             if(*v==val){
                 v++;
-                *cantElem-=1;
+                (*cantElem)--;
             }else
                 v++;
         }while(*v==val);        /// SIEMPRE sumo 1 a v y chequeo que nunca quede apuntando al valor que quiero eliminar

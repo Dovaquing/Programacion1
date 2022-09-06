@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1661992280 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_27 palindromos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Bibliotecas/miCtype.h"
+	"../Bibliotecas/miString.h"
+
+1661987461 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mictype.h
+
+1661987459 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mictype.c
+	<stdio.h>
+	<stdlib.h>
+	"./miCtype.h"
+
+1661992342 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistring.c
+	<stdio.h>
+	<stdlib.h>
+	"./miString.h"
+	"./miCtype.h"
+
+1661991388 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistring.h
+

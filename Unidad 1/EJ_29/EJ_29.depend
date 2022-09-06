@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1661987459 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mictype.c
+	<stdio.h>
+	<stdlib.h>
+	"./miCtype.h"
+
+1662042341 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mictype.h
+
+1661992342 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistring.c
+	<stdio.h>
+	<stdlib.h>
+	"./miString.h"
+	"./miCtype.h"
+
+1661991388 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistring.h
+
+1662069221 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\ej_29\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../Bibliotecas/funcionesMatrices.h"
+
+1662045851 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistdlib.c
+	<stdlib.h>
+	<stdio.h>
+	"./miStdlib.h"
+	"./miCtype.h"
+	"../miMath.h"
+
+1662044809 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\mistdlib.h
+
+1661209235 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.h
+
+1661209410 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+
+1662069477 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesMatrices.h"
+
+1662069482 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.h
+
