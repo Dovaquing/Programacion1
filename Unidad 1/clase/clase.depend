@@ -1,12 +1,44 @@
 # depslib dependency file v1.0
-1661824472 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.c
+1663271109 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.c
 	<stdio.h>
 	<stdlib.h>
 	"./miString.h"
 
-1661524613 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.h
+1663270756 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mistring.h
 
-1661884257 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\clase\main.c
+1663642880 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\clase\main.c
 	<stdio.h>
 	<stdlib.h>
+	"../Bibliotecas/estructuras.h"
+
+1663267708 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesMatrices.h"
+
+1663245401 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\funcionesmatrices.h
+
+1663274661 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.h
+
+1663278445 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\funcionesvectores.c
+	<stdio.h>
+	<stdlib.h>
+	"./funcionesVectores.h"
+	"./miMath.h"
+	"./miString.h"
+
+1661209235 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.h
+
+1661209410 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\mimath.c
+	<Stdio.h>
+	<Stdlib.h>
+	"./miMath.h"
+
+1663642492 c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\estructuras.h
+
+1663642627 source:c:\users\jmerc\onedrive\escritorio\facultad\programacion\unidad 1\bibliotecas\estructuras.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"../bibliotecas/estructuras.h"
 

@@ -2,7 +2,28 @@
 #include <stdlib.h>
 #include "./funcionesVectores.h"
 #include "./miMath.h"
+#include "./miString.h"
 
+void mostrarEntero(void *v){
+    printf("%d\n",*(int*)v);
+}
+
+void mostrarFloat(void *v){
+    printf("%.2f\n",*(float*)v);
+}
+
+void mostrarChar(void *v){
+    printf("%c\n",*(char*)v);
+}
+
+void mostrarAlumno(void *v){
+    t_alumno *a;
+    a=(t_alumno*)v;
+    printf("\nnombre y apellido: %s", a->nya);
+    printf("\ndni: %d", a->dni);
+    printf("\nfecha de nacimiento: %d/%d/%d", a->fNac.dia,a->fNac.mes,a->fNac.anio);
+    printf("\npromedio: %.2f",a->prom);
+}
 
 void mostrarVector(int *v,int tam)
 {
@@ -126,3 +147,42 @@ void eliminarValoresEnVec(int *v,int val,int *cantElem){
     }
 }
 
+
+void mostrarVectorG(void *v,int tamE,int cantE,void (*mostrar)(void *)){
+    int i;
+    for(i=0;i<cantE;i++){
+        mostrar(v);
+        v+=tamE;
+    }
+}
+
+void reemplazar(void *a,void *b,int tamE){
+    void *aux=malloc(tamE);
+    miMemcpy(aux,a,tamE);
+    miMemcpy(a,b,tamE);
+    miMemcpy(b,aux,tamE);
+    free(aux);
+}
+
+void* buscarMenor(void *v,int tamE,int cantE,int (*comparar)(const void *,const void *)){
+    int i,comparacion;
+    void *menor=v;
+    for(i=0;i<cantE-1;i++){
+        v+=tamE;
+        comparacion=comparar(v,menor);
+        if(comparacion<0)
+            menor=v;
+    }
+    return menor;
+}
+
+void algSelecion(void *v,int tamE,int cantE,int (*comparar)(const void *,const void *)){
+    int i;
+    void *menor;
+    for(i=0;i<cantE-1;i++){
+        menor=buscarMenor(v,tamE,cantE-i,comparar);
+        if(menor!=v)
+            reemplazar(v,menor,tamE);
+        v+=tamE;
+    }
+}

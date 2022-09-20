@@ -31,6 +31,22 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../Bibliotecas/estructuras.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Bibliotecas/estructuras.h" />
+		<Unit filename="../Bibliotecas/funcionesMatrices.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Bibliotecas/funcionesMatrices.h" />
+		<Unit filename="../funcionesVectores.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../funcionesVectores.h" />
+		<Unit filename="../miMath.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../miMath.h" />
 		<Unit filename="../miString.c">
 			<Option compilerVar="CC" />
 		</Unit>

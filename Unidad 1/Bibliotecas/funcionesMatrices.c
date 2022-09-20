@@ -3,8 +3,17 @@
 #include "./funcionesMatrices.h"
 
 
+void cargarMatriz(int** mat,int f,int c){
+    int i,j;
+    for(i=0;i<f;i++)
+        for(j=0;j<c;j++){
+        printf("ingrese el valor de la matriz en la fila %d, columna %d: ",i+1,j+1);
+        scanf("%d",&mat[i][j]);
+    }
+}
 
-void mostrarMatriz(int mat[TAM][TAM],int f,int c){
+
+void mostrarMatrizDinamica(int** mat,int f,int c){
     int i,j;
     for(i=0;i<f;i++){
         for(j=0;j<c;j++)
@@ -111,4 +120,39 @@ int esMatrizSimetrica(int mat[TAM][TAM],int f,int c){
             if(mat[i][j]!=mat[j][i])
                 return 0;
     return 1;
+}
+
+int** generarMatrizDinamica(int cantFil,int cantCol){
+    int **inicioMatriz,i=0;
+    inicioMatriz = (int**)malloc(cantFil*sizeof(int*));
+    if(!inicioMatriz)
+        return NULL;
+    do{
+        inicioMatriz[i]=(int*)malloc(cantCol*sizeof(int));
+        i++;
+    }while(inicioMatriz[i] && i<cantFil);
+    if(!inicioMatriz[i]){
+        while(i>=0){
+            i--;
+            free(inicioMatriz[i]);
+            }
+        free(inicioMatriz);
+        return NULL;
+    }
+    return inicioMatriz;
+
+    /*  ESTA IMPLEMENTACION FUNICONA PERO ES DESORGANIZADA
+    if(!inicioMatriz)
+        return NULL;
+    for(i=0;i<cantFil;i++){
+        inicioMatriz[i]=(int*)malloc(cantCol*sizeof(int));
+        if(!inicioMatriz[i]){
+            for(i=i;i>-1;i--){
+                free(inicioMatriz[i]);
+            }
+            free(inicioMatriz);
+            return NULL;
+        }
+    }*/
+
 }
